@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>My Music Video</title>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<body>
+  <div id="controls">
+      <button onclick="startAudio()">再生/一時停止</button>
+      <input type="range" id="seekBar" min="0" max="100" value="0" oninput="updateSeek()">
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5" oninput="updateVolume()">
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+# Node.js/npm関連（必要に応じて）
+node_modules/
+package-lock.json
+
+# p5.jsプロジェクト特有
+dist/
+build/
+*.log
+*.bak
+
+# ローカル設定ファイル
+*.env
+*.local
+
+# システムファイル
+.DS_Store
+Thumbs.db
+
+# 音楽ファイル（プロジェクトに直接含めない場合）
+*.mp3
+*.wav
+
+# 出力や一時ファイル
+*.tmp
+*.swp
+
+# デバッグやキャッシュ
+*.cache
